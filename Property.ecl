@@ -1,4 +1,4 @@
-EXPORT Property := MODULE
+﻿EXPORT Property := MODULE
 
 EXPORT Layout := RECORD
    UNSIGNED8 personid;
@@ -24,6 +24,6 @@ EXPORT Layout := RECORD
    UNSIGNED2 year_built;
   END;
 
-EXPORT File := DATASET('~ONLINE::XXX::AdvECL::property',Layout,THOR);
+EXPORT File := DATASET('~ONLINE::II::AdvECL::property',Layout,THOR);
 
  END;

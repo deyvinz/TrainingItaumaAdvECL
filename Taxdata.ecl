@@ -1,4 +1,4 @@
-EXPORT Taxdata := MODULE
+﻿EXPORT Taxdata := MODULE
 
 EXPORT Layout :=  RECORD
     INTEGER8  propertyid;
@@ -21,6 +21,6 @@ EXPORT Layout :=  RECORD
     UNSIGNED2 stories_number;
    END;
 	 
-EXPORT File :=	DATASET('~ONLINE::XXX::AdvECL::taxdata',Layout,THOR);
+EXPORT File :=	DATASET('~ONLINE::II::AdvECL::taxdata',Layout,THOR);
 
    END; 

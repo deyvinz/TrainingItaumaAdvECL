@@ -1,4 +1,4 @@
-EXPORT People := MODULE
+﻿EXPORT People := MODULE
 
 EXPORT Layout := RECORD
   UNSIGNED8 id;
@@ -11,5 +11,5 @@ EXPORT Layout := RECORD
   STRING8   birthdate;
   END;
 
-EXPORT File := DATASET('~ONLINE::XXX::AdvECL::People',Layout,THOR);
+EXPORT File := DATASET('~ONLINE::II::AdvECL::People',Layout,THOR);
 END;

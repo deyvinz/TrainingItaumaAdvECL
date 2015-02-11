@@ -1,0 +1,1 @@
+﻿EXPORT IsValidAmount(integer amt) := amt > 0;
